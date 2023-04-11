@@ -33,6 +33,11 @@ const LoginScreen = ({navigation}:Props) => {
                 <KeyboardAvoidingView
                     behavior={(Platform.OS === 'ios') ? 'padding' : 'height'}
                 >
+                    <Text style={{
+                        justifyContent:'center',
+                        alignItems:'center',
+                        fontSize:25
+                    }}>Login Test IOS</Text>
                     <Controller
                     control={control}
                     rules={{
@@ -114,6 +119,5 @@ const styles = StyleSheet.create({
         paddingHorizontal: 30,
         paddingVertical: 8,
         borderRadius: 50
-
     }
 })

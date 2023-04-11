@@ -6,7 +6,11 @@ const HomeScreen = () => {
     return (
         <>
             <View style={styles.main}>
-                <Text>Bienvenido Test IOS</Text>
+                <Text
+                style={{
+                    fontSize:20
+                }}
+                >Bienvenido Test IOS</Text>
             </View>
         </>
     );
@@ -18,7 +22,7 @@ const styles = StyleSheet.create({
     main:{
         backgroundColor: 'black',
         height: '100%',
-    },
-    title: {
+        alignItems:"center",
+        paddingTop: '50%'
     }
 })
